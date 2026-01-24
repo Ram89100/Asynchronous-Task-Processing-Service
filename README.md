@@ -1,6 +1,6 @@
 # AsyncTaskProcessor
 
-> A battle-tested distributed task processing system demonstrating production-grade reliability, horizontal scalability, and operational maturity—built with Django, Celery, PostgreSQL, and Redis.
+> A battle-tested distributed task processing system demonstrating  reliability, horizontal scalability, and operational maturity—built with Django, Celery, PostgreSQL, and Redis.
 
 ---
 
