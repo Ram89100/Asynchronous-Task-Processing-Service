@@ -2680,15 +2680,6 @@ SELECT count(*) FROM pg_stat_activity;
 
 This system demonstrates **production-grade async task processing** suitable for SaaS backends, content processing, and reliable work execution. It prioritizes **simplicity, reliability, and observability** over cutting-edge features.
 
-**What makes this FAANG-level**:
-- ✅ Clear architecture with documented trade-offs
-- ✅ At-least-once delivery with idempotency patterns
-- ✅ Explicit scaling limits and optimization roadmap
-- ✅ Production hardening guidance (not theoretical)
-- ✅ Honest about gaps (Beat scheduler not HA, secrets not rotated)
-- ✅ Real performance data from load testing
-- ✅ Growth path from single-server to enterprise scale
-
 **Next steps**:
 1. Review code and architecture (1-2 hours)
 2. Deploy to staging (1 day)
