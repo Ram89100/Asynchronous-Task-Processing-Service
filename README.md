@@ -1,6 +1,10 @@
 # AsyncTaskProcessor
 
+<<<<<<< HEAD
 > A well-documented reference implementation of async task processing using Django, Celery, PostgreSQL, and Redis. Suitable for learning distributed systems patterns and as a foundation for production systems.
+=======
+> A battle-tested distributed task processing system demonstrating  reliability, horizontal scalability, and operational maturity—built with Django, Celery, PostgreSQL, and Redis.
+>>>>>>> 45f9426f81258b18eb906e6e4b3971f07912b9c0
 
 ---
 
@@ -2192,6 +2196,7 @@ SELECT count(*) FROM pg_stat_activity;
 
 This is a well-structured reference implementation of async task processing that demonstrates essential patterns for building reliable background job systems. It prioritizes **clarity, practical patterns, and honest trade-off documentation** over production-ready polish.
 
+<<<<<<< HEAD
 **Strengths**:
 - ✅ Clear architecture with documented trade-offs
 - ✅ At-least-once delivery with idempotency patterns explained
@@ -2206,6 +2211,14 @@ This is a well-structured reference implementation of async task processing that
 - ❌ Secrets management uses `.env` files (not suitable for production)
 - ❌ Missing centralized logging and alerting infrastructure
 - ❌ Prometheus metrics not exposed (client library included)
+=======
+**Next steps**:
+1. Review code and architecture (1-2 hours)
+2. Deploy to staging (1 day)
+3. Load test and optimize (2-3 days)
+4. Production rollout (1 day)
+5. Monitor and iterate (ongoing)
+>>>>>>> 45f9426f81258b18eb906e6e4b3971f07912b9c0
 
 **Best suited for**:
 - Learning async task processing patterns
